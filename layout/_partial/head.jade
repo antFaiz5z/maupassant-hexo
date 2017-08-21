@@ -25,7 +25,7 @@ head
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
         ga('create','#{theme.google_analytics}','auto');ga('send','pageview');
 
-    if theme.baidu_tongji
+    if theme.baidu_analytics
         script.
             var _hmt = _hmt || [];
             (function () {
@@ -34,4 +34,6 @@ head
                 var s = document.getElementsByTagName("script")[0];
                 s.parentNode.insertBefore(hm, s);
             })();
+
+
 
