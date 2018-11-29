@@ -25,7 +25,7 @@ valine: ## https://valine.js.org
   placeholder: emmmm... ## Comment box placeholders.
   avatar: 'retro' ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
   pageSize: 10 ## Number of comments per page.
-  guest_info: nick,mail,phone ## Attributes of reviewers.
+  guest_info: nick,mail ## Attributes of reviewers.
 
 google_search: false ## Use Google search, true/false.
 baidu_search: true ## Use Baidu search, true/false.
@@ -84,9 +84,6 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - recent_posts
   - recent_comments
 
-links:
-  - title: site-name1
-    url: http://www.example1.com/
 
 timeline:
   - num: 1
